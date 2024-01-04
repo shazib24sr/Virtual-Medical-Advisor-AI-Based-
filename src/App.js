@@ -136,7 +136,7 @@ formData.append('file', selectedFile); // 'selectedFile' is the File object
     <div className="overlap-wrapper">
       <div className="overlap">
         <div className="overlap-group">
-            <img className="rectangle" alt="Rectangle" src={Rectangle} />
+            <img className="rectangle" src={Rectangle} />
             <p className="text-wrapper">Virtual Medical Advisor (AI Based)</p>
               <div className="search">
               
@@ -200,16 +200,16 @@ formData.append('file', selectedFile); // 'selectedFile' is the File object
                   
                   <p className="text-wrapper-2">Looking for medication details? Type the name or upload a picture.</p>
                   {/* <Export className="export-instance" /> */}
-                  <img className="image-no-bg" alt="Image no bg" src={image1_no_bg} />
+                  <img className="image-no-bg"   src={image1_no_bg} />
           </div>
-          <img className="image" alt="Image" src={image7} />
-          <img className="img" alt="Image" src={image8} />
-          <img className="image-2" alt="Image" src={image9} />
+          <img className="image"  src={image7} />
+          <img className="img"  src={image8} />
+          <img className="image-2"  src={image9} />
             <div className="overlap-2">
               <div className="text-wrapper-3">Our Affiliations</div>
                   <div className="group">
                       <div className="rectangle-wrapper">
-                          <img className="rectangle-2" alt="Rectangle" src="rectangle-36.svg" />
+                          <img className="rectangle-2"  src="rectangle-36.svg" />
                       </div>
                     </div>
                 </div>

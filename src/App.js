@@ -200,11 +200,11 @@ formData.append('file', selectedFile); // 'selectedFile' is the File object
                   
                   <p className="text-wrapper-2">Looking for medication details? Type the name or upload a picture.</p>
                   {/* <Export className="export-instance" /> */}
-                  <img className="image-no-bg" alt="Image no bg" src={image1_no_bg} />
+                  <img className="image-no-bg" src={image1_no_bg} />
           </div>
-          <img className="image" alt="Image" src={image7} />
-          <img className="img" alt="Image" src={image8} />
-          <img className="image-2" alt="Image" src={image9} />
+          <img className="image" src={image7} />
+          <img className="img" src={image8} />
+          <img className="image-2" src={image9} />
             <div className="overlap-2">
               <div className="text-wrapper-3">Our Affiliations</div>
                   <div className="group">

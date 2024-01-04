@@ -14,6 +14,7 @@ import './App.css';
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [medicineDetails, setMedicineDetails] = useState([]);
+  const [errorMessage, setErrorMessage] = useState('');
   const [selectedFile, setSelectedFile] = useState(null);
   const [isLiveCapture, setIsLiveCapture] = useState(false);
   const [capturedImage, setCapturedImage] = useState(null);

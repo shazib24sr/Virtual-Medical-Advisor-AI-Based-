@@ -298,7 +298,9 @@
   top: 0;
   width: 12px;
 }
-
+.error-section{
+  display: none;
+}
 .landing-page .element-medicines {
   color: #ffffff;
   font-family: "Poppins-Black", Helvetica;
@@ -455,3 +457,4 @@
 .camera-popup strong {
   font-weight: bold;
 }
+

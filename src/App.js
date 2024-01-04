@@ -1,27 +1,23 @@
+import React, { useState, useRef } from 'react';
+import Webcam from 'react-webcam';
+
+import './App.css';
 import Rectangle from './images/Rectangle-1.png';
 import image1_no_bg from './images/image-1-no-bg.png';
 import image7 from './images/image7.png';
 import image8 from './images/image8.png';
 import image9 from './images/image9.png';
-
-import Webcam from 'react-webcam';
-
-// import image8 from './images/image8.png';
-import React, { useState, useRef } from 'react';
-
-import './App.css';
+import search from './images/mdi_search.svg';
+import vector from './images/Vector.svg';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [medicineDetails, setMedicineDetails] = useState([]);
-  const [errorMessage, setErrorMessage] = useState('');
   const [selectedFile, setSelectedFile] = useState(null);
   const [isLiveCapture, setIsLiveCapture] = useState(false);
   const [capturedImage, setCapturedImage] = useState(null);
 
   const videoRef = useRef(null);
-  const formData = new FormData();
-formData.append('file', selectedFile); // 'selectedFile' is the File object
 
   const handleFileChange = (event) => {
     setSelectedFile(event.target.files[0]);
